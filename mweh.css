@@ -315,11 +315,7 @@ m:hover{
    visibility:hidden;
    animation-fill-mode:forwards;
 } */
-* {
-    padding: 0;
-    margin: 0;
-    background-color:pink
-    ;
+
 /* }
 .a:hover{
     height: 10px;
@@ -337,3 +333,58 @@ transform: translateY(-15px) rotateZ(-45deg);
 }
 .a:hover .middle {
     width: 0; */
+    body{
+        background-color:#b72a67 ;
+        margin: 0px 0px 0px 0px ;
+    }
+    .delgets{
+        width: 300px;
+        height: 100vh;
+        background-color: #8d2050;
+        padding: 8px;
+    }
+    .hamburger{
+       width: 60px;
+       height: 60px;
+       cursor: pointer;
+       background-color:  #8d2050;
+       padding: 1px;
+    }
+    .bar{
+        height: 5px;
+        width: 35px;
+        background: #fff;
+        margin: 10px auto;
+        transition: transform 0.5s;
+    }
+    .shadow{
+        box-shadow: 3px 5px 50px 5px grey;
+    }
+    .hamburger:hover .top{
+        transform: translateY(15px) rotateZ(45deg);
+    }
+    .hamburger:hover .middle{
+        transition: width 0.5s;
+        width: 0px;
+    }
+    .hamburger:hover .bottom{
+        transform: translateY(-15px) rotateZ(-45deg);
+    }
+    .oroltgaralt div::before,
+    .oroltgaralt div::after{
+        position: absolute;
+        left: 0px;
+        width: 100%;
+        height: 2px;
+        background: #fff;
+        content: '';
+        opacity: 0;
+        transition: all 0,3s;
+    }
+    .oroltgaralt div::before{
+        top: 0px;
+        transform: translateY(10px);
+    }
+    .oroltgaralt div::after{
+        bottom: 0px;
+        transform: translateY(-10px);}
