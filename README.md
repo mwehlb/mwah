@@ -24,7 +24,7 @@ body{
     margin: 10px auto;
     transition: transform 0.5s;
 }
-.shadow{
+.shadow {
     box-shadow: 3px 5px 50px 5px grey;
 }
 .hamburger:hover .top{
