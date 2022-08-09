@@ -1,0 +1,339 @@
+/* .aa {
+    font-style: normal;
+    color: white;
+    background-color: brown;
+    position: relative 100px;
+    font-size: x-large;
+    border-color: darkgray ;
+border-width: 1px ;
+border-radius: 1px ;
+border-style:solid;
+width: 60px;
+}
+
+.vv {
+    width: 500px;
+    height: 500px;
+    padding-top: 10px;
+    padding: 10px;
+}
+
+.bb {
+    font-style: normal;
+    padding-left: 500px;
+    font-size: xx-large;
+
+}
+
+.dd {
+    font-style: normal;
+    position: absolute ;
+    top: 100px;
+    left: 503px;
+    font-size: x-large;
+}
+
+.rr {
+    position: absolute;
+    top: 500px;
+    left: 510px;
+    font-style: normal;
+   font-size: xx-large;
+}
+ a{
+    font-style: normal;
+    position: absolute;
+    top: 550px;
+    left: 470px;
+    font-size: smaller;
+border-color: darkgray ;
+border-width: 1px ;
+border-radius: 1px ;
+border-style:solid;
+padding: 20px;
+
+ }
+ a:hover{
+    background-color:brown;
+    font-size: xx-large;
+
+ }
+ b{
+    font-style: normal;
+    position: absolute;
+    top: 550px;
+    left: 560px;
+    font-size: x-large;
+border-color: darkgray ;
+border-width: 1px ;
+border-radius: 1px ;
+border-style:solid;
+padding: 20px;
+
+ }
+ b:hover{
+    background-color: brown;
+ }
+ t{
+    font-style: normal;
+    position: absolute;
+    top: 650px;
+    left: 450px;
+    font-size: x-large;
+border-color: darkgray ;
+border-width: 1px ;
+border-radius: 1px ;
+border-style:solid;
+font-size: xx-large;
+padding: 10px;
+
+ }
+t:hover{
+    background-color: brown;
+}
+y{ font-style: normal;
+    position: absolute;
+    top: 650px;
+    left: 483px;
+    font-size: x-large;
+border-color: darkgray ;
+border-width: 1px ;
+border-radius: 1px ;
+border-style:solid;
+font-size: xx-large;
+padding: 10px;
+
+ }
+ y:hover{
+    background-color: brown;
+ }
+ u{ font-style: normal;
+    position: absolute;
+    top: 650px;
+    left: 520px;
+    font-size: x-large;
+border-color: darkgray ;
+border-width: 1px ;
+border-radius: 1px ;
+border-style:solid;
+font-size: xx-large;
+padding: 10px;
+
+ }
+u:hover{
+    background-color: brown;
+}
+o{
+    font-style: normal;
+    position: absolute;
+    top: 650px;
+    left: 570px;
+    font-size: x-large;
+border-color: darkgray ;
+border-width: 1px ;
+border-radius: 1px ;
+border-style:solid;
+font-size: xx-large;
+background-color:darkgray;
+color: white;
+padding: 10px;
+
+}
+o:hover{
+    background-color: brown;
+}
+p{
+    position: absolute;
+    top: 730px;
+    left: 490px;
+    font-size: x-large;
+    border-color: darkgray ;
+    border-width: 1px ;
+    border-radius: 1px ;
+    border-style:solid;
+    padding: 10px;
+
+}  
+p:hover{
+    background-color: red;
+}
+m{
+    position: absolute;
+    top: 754px;
+    left: 550px;
+    font-size: x-large;
+    border-color: darkgray ;
+    border-width: 1px ;
+    border-radius: 1px ;
+    border-style:solid;
+    padding: 10px;
+}
+m:hover{
+    background-color: green;
+}
+.k{
+    overflow:scroll;
+    position: absolute;
+    left: 300px;
+    top: 100px;
+} */
+/* *{
+    background-color: burlywood;
+}
+.boxOne{
+    width: 200px;
+    height: 300px;
+    background-color: white;
+
+}
+.boxTwo{
+    width:200px ;
+    height: 250px;
+    background-color: white;
+}
+.A{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+} */
+/* .A{
+    display: grid;
+    grid-template-columns: repeat(4,200px);
+    grid-template-rows: repeat(5,200px);
+    border: 2px solid red;
+ grid-template-areas:
+ "boxOne boxOne boxOne boxOne"
+ "boxTwo boxTwo . boxThree"
+ "boxFour boxFour boxFour boxFour" ;
+}
+
+
+.boxOne{
+    grid-area: boxOne;
+    background-color: yellow;
+}
+.boxTwo{
+    grid-area: boxTwo;
+    background-color: red;
+}
+.boxThree{
+    grid-area: boxThree;
+    background-color: blue;
+}
+.boxFour{
+    grid-area: boxFour;
+    background-color: green;
+    grid-template-columns: 20px;
+    grid-column-start :223 ;
+} */
+/* .A{
+
+    display: grid;
+   grid-template-columns:repeat(4,300px) ;
+   grid-template-columns: repeat(2,400px);
+  background-color: silver;
+  align-items: center;
+
+}
+.aa{
+  
+    font-size: larger;   
+}
+*{
+    background-color: silver;
+}
+ */
+
+
+/* * {
+    padding: 0;
+    margin: 0;
+    background-color: silver;
+}
+
+.container{
+    width: 1200px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: auto;
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    position: relative;
+}
+
+.sale{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid brown;
+    background-color: brown;
+    color: white;
+} */
+/* *{
+    padding: 10px;
+    margin: 10px;
+   background-color: palevioletred;
+}
+
+.A{
+ 
+
+}
+.a:hover{
+  
+    width: 160px;
+    cursor: pointer;
+    animation:movedown 1s linear 1;
+ animation-delay:1s;
+ visibility: hidden;
+ animation-fill-mode: forwards;
+}
+@keyframes movedown{
+    0%{
+        transform: translateY(-100);
+
+    }
+    100%{
+        transform: translateY(0 );
+    }
+}
+.a{
+   flex: 1; 
+   padding: 1 60px;
+   animation:movedown 1s linear 1;
+   animation-delay:3s;
+   visibility:hidden;
+   animation-fill-mode:forwards;
+} */
+* {
+    padding: 0;
+    margin: 0;
+    background-color:pink
+    ;
+/* }
+.a:hover{
+    height: 10px;
+    width: 35px;
+    background-color: rgb(164, 93, 0);
+    margin: 10px;
+    box-shadow: 0px 5px 50px 5px gray;
+ 
+}
+.a:hover .top{
+    transform: translateY(15px) rotateZ(45deg);
+}
+.a:hover .bottom{
+transform: translateY(-15px) rotateZ(-45deg);
+}
+.a:hover .middle {
+    width: 0; */
